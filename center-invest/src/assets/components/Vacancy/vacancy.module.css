@@ -27,8 +27,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     max-width: 40%;
-    height: 200px;
+    height: 250px;
     background: #6BDD11;
     border-radius: 3px;
     padding-top: 15px;
@@ -50,5 +51,18 @@
 .item:hover {
     opacity: .9;
     box-shadow: 2px 3px 16px rgba(0, 0, 0, .3);
+}
+
+#system-analitycs::after {
+    content: "";
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 10px;
+    width: 1em;
+    height: 1em;
+    background-image: url("./system-analitycs.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 

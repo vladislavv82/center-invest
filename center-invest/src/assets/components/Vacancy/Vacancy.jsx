@@ -10,37 +10,37 @@ function Intership() {
         <div className={styles.container}>
             <div className={styles.row}>
                 <div className={styles.item}>
-                    <div className={styles.item__title}>Системный аналитик</div>
+                    <div id='system-analitycs' className={styles.item__title}>Системный аналитик</div>
                     <ul className={styles.item__description}>
-                        <li>Автоматизация финансового мониторинга</li>
-                        <li>Развитие дистанционных сервисов (интернет-банк и мобильный банк)</li>
-                        <li>Автоматизация кредитов</li>
+                        <li>Опыт работы с требованиями заказчика, умение задавать правильные вопросы, находить суть и предлагать альтернативные варианты решения задачи</li>
+                        <li>Опыт постановки задач и формирования технической документации</li>
+                        <li>Опыт анализа и моделирования бизнес-процессов организации</li>
                     </ul>
                 </div>
                 <div className={styles.item}>
-                    <div className={styles.item__title}>Администратор баз данных</div>
+                    <div className={styles.item__title}>Android разработчик</div>
                     <ul className={styles.item__description}>
-                        <li>Знание технологий повышения доступности БД  </li>
-                        <li>Знание технологий повышения доступности БД Database Mirroring, AlwaysOn Availability Groups.</li>
-                        <li>Знание SQL (T-SQL)</li>
+                        <li>Умеет грамотно продумывать архитектуру приложения, знаком с MVVM, MVI, чистой архитектурой  </li>
+                        <li>Уверенно использует Java/Kotlin (на самом деле у нас уже почти все на Kotlin)</li>
+                        <li>Знает Jetpack Components (Navigation, ViewModel, LiveData, ViewBinding)</li>
                     </ul>
                 </div>
             </div>
             <div className={styles.row}>
                 <div className={styles.item}>
-                    <div className={styles.item__title}>IOS разработчик</div>
+                    <div className={styles.item__title}>JAVA разработчик</div>
                     <ul className={styles.item__description}>
-                        <li>Занимались iOS-разработкой больше 2 лет и понимание CI/CD</li>
-                        <li>Знание Swift, Xсode и инструменты GCD</li>
-                        <li>Знание с MVP и MVVM</li>
+                        <li>Навыки самостоятельного программирования на Java</li>
+                        <li>Опыт работы с core-библиотеками (JBDC, JAXB, Jackson)</li>
+                        <li>Умение работать с любой из СУБД (в идеале с Postgres)</li>
                     </ul>
                 </div>
                 <div className={styles.item}>
-                    <div className={styles.item__title}>Разработчик баз данных</div>
+                    <div className={styles.item__title}>Системный администратор </div>
                     <ul className={styles.item__description}>
-                        <li>Знание SQL, PL/SQL на хорошем уровне</li>
-                        <li>Знание основ проектирования реляционных базы данных</li>
-                        <li>Понимание работы индексов</li>
+                        <li>Навыки по обслуживанию баз данных: процедуры резервного копирования, проверки БД, оптимизации</li>
+                        <li>Опыт восстановления БД в случае сбоя - логических, физических ошибок</li>
+                        <li>Знание SQL (T-SQL)</li>
                     </ul>
                 </div>
             </div>
