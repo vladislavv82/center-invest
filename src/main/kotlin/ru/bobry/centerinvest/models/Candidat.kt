@@ -5,7 +5,7 @@ import jakarta.persistence.*
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder
 
 @Entity
-@Table(name = "internships")
+@Table(name = "candidat")
 class Candidat {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
