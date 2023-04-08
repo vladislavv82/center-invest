@@ -44,7 +44,7 @@ const RegisterForm = () => {
 
   return (
     <div className="">
-      <div><img className={styles.image} src="./logo.png" alt="" /></div>
+      <div className={styles.center}><img className={styles.image} src="./logo.png" alt="" /></div>
     <div className={styles.wrapper}>
       <form onSubmit={handleSubmit} className={styles.form}>
         <h1>Регистрация в твой IT старт</h1>
@@ -52,10 +52,12 @@ const RegisterForm = () => {
           <label htmlFor="email">Электронная почта</label>
           <input type="email" id="email" value={email} onChange={handleEmailChange} />
         </div>
+
         <div className={styles.blank}>
           <label htmlFor="password">Пароль</label>
           <input type="password" id="password" value={password} onChange={handlePasswordChange} />
         </div>
+        
         <div className={styles.blank}>
           <label htmlFor="confirmPassword">Подтверждение пароля</label>
           <input type="password" id="confirmPassword" value={confirmPassword} onChange={handleConfirmPasswordChange} />

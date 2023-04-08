@@ -7,8 +7,7 @@ const API_BASE_URL = 'http://your-backend-api.com';
 const LoginForm = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
+
 
   const handleEmailChange = (event) => {
     setEmail(event.target.value);
@@ -20,7 +19,7 @@ const LoginForm = () => {
 
   return (
     <div className="">
-      <div><img className={styles.image} src="./logo.png" alt="" /></div>
+      <div className={styles.image_wrapper}><img className={styles.image} src="./logo.png" alt="" /></div>
     <div className={styles.wrapper}>
       <form className={styles.form}>
         <h1>Вход в твой IT старт</h1>

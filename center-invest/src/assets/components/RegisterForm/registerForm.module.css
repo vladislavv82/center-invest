@@ -66,7 +66,45 @@
 
 }
 
-.image{ 
+.image{
+    display: block; 
     width: 200px;
     height: 60px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/*  АДАПТИВКА  */
+@media screen and (max-width: 980px) {
+    .wrapper {
+        padding: 0px  30px;
+    }
+
+    .form {
+        width: 100%;
+        max-width: 400px;
+        height: 450px;
+    }
+
+    .blank {
+        width: 80%;
+        display: flex;
+        margin-bottom: 10px;
+    }
+    
+    .blank input {
+        width: 100%;
+        max-width: 450px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    .wrapper h1 {
+        margin-top: 10px;
+        font-size: 16px;
+    }
 }
