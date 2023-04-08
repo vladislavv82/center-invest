@@ -7,7 +7,6 @@ import org.springframework.boot.runApplication
 
 @SpringBootApplication(exclude = [SecurityAutoConfiguration::class])
 class CenterInvestApplication
-
 fun main(args: Array<String>) {
     runApplication<CenterInvestApplication>(*args)
 }
