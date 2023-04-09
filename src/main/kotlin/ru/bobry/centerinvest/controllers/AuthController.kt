@@ -14,7 +14,6 @@ import java.util.*
 
 
 @RestController
-@CrossOrigin
 @RequestMapping("api")
 class AuthController(private val userService: UserService) {
 
