@@ -6,6 +6,7 @@ import ru.bobry.centerinvest.models.Form
 import ru.bobry.centerinvest.services.FormService
 
 @RestController
+@CrossOrigin
 @RequestMapping("/api/forms")
 class FormController(private val formService: FormService) {
 

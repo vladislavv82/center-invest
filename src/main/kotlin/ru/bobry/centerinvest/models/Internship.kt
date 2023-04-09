@@ -14,4 +14,5 @@ class Internship {
 
     @Column
     var requirements: String = ""
+
 }

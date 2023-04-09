@@ -5,6 +5,7 @@ import ru.bobry.centerinvest.models.Vacancy
 import ru.bobry.centerinvest.services.VacancyService
 
 @RestController
+@CrossOrigin
 @RequestMapping("/vacancys")
 class VacancyController(private val vacancyService: VacancyService) {
     @GetMapping("/all")

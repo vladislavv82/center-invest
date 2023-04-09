@@ -8,6 +8,7 @@ import ru.bobry.centerinvest.repositories.OptionRepository
 import ru.bobry.centerinvest.repositories.TestRepository
 
 @RestController
+@CrossOrigin
 @RequestMapping("/api/tests")
 class TestController(private val testRepository: TestRepository, private val optionRepository: OptionRepository) {
 
